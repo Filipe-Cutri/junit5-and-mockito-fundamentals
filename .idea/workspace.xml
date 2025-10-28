@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd9b4156-448c-4b61-b34a-b76f73fe9e7a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/barriga/domain/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cursoJUnit5/Examples/domain/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/barriga/domain/Transacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cursoJUnit5/Examples/domain/Transacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/barriga/domain/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cursoJUnit5/Examples/domain/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/barriga/domain/exceptions/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cursoJUnit5/Examples/domain/exceptions/ValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/barriga/infra/UsuarioMemoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cursoJUnit5/Examples/infra/UsuarioMemoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/barriga/service/ContaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cursoJUnit5/Examples/service/ContaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/barriga/service/TransacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cursoJUnit5/Examples/service/TransacaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/barriga/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cursoJUnit5/Examples/service/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/barriga/service/external/ClockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cursoJUnit5/Examples/service/external/ClockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/barriga/service/external/ContaEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cursoJUnit5/Examples/service/external/ContaEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/barriga/service/repositories/ContaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cursoJUnit5/Examples/service/repositories/ContaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/barriga/service/repositories/TransacaoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cursoJUnit5/Examples/service/repositories/TransacaoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcaquino/barriga/service/repositories/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cursoJUnit5/Examples/service/repositories/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculadoraMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculadoraMockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/barriga/domain/ContaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cursoJUnit5/Examples/domain/ContaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/barriga/domain/UsuarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cursoJUnit5/Examples/domain/UsuarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/barriga/domain/builders/BuilderMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cursoJUnit5/Examples/domain/builders/BuilderMaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/barriga/domain/builders/BuilderMasterPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cursoJUnit5/Examples/domain/builders/BuilderMasterPOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/barriga/domain/builders/ContaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cursoJUnit5/Examples/domain/builders/ContaBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/barriga/domain/builders/TransacaoBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cursoJUnit5/Examples/domain/builders/TransacaoBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/barriga/domain/builders/UsuarioBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cursoJUnit5/Examples/domain/builders/UsuarioBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/barriga/infra/UserServiceComUserMemoryRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cursoJUnit5/Examples/infra/UserServiceComUserMemoryRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/barriga/infra/UsuarioDummyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cursoJUnit5/Examples/infra/UsuarioDummyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/barriga/service/ContaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cursoJUnit5/Examples/service/ContaServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/barriga/service/TransacaoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cursoJUnit5/Examples/service/TransacaoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/barriga/service/UsuarioServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cursoJUnit5/Examples/service/UsuarioServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/wcaquino/barriga/suite/SuiteTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="34fYPJOM3zYYVnfXSIC3HC8GIEp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.ContaServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContaTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceComUserMemoryRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceComUserMemoryRepositoryTest.testeBasico.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test in junit5-curso.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Repositórios GitHub/Curso_JUnit5&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.test in junit5-curso">
+    <configuration name="UserServiceComUserMemoryRepositoryTest.testeBasico" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-curso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cursoJUnit5.Examples.infra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cursoJUnit5.Examples.infra" />
+      <option name="MAIN_CLASS_NAME" value="cursoJUnit5.Examples.infra.UserServiceComUserMemoryRepositoryTest" />
+      <option name="METHOD_NAME" value="testeBasico" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test in junit5-curso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-curso" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test in junit5-curso" />
+        <item itemvalue="JUnit.UserServiceComUserMemoryRepositoryTest.testeBasico" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd9b4156-448c-4b61-b34a-b76f73fe9e7a" name="Changes" comment="" />
+      <created>1761606069358</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761606069358</updated>
+    </task>
+    <servers />
+  </component>
+</project>

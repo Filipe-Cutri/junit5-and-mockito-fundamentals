@@ -1,4 +1,4 @@
-import static br.ce.wcaquino.barriga.domain.builders.UsuarioBuilder.umUsuario;
+import static cursoJUnit5.Examples.domain.builders.UsuarioBuilder.umUsuario;
 import static org.mockito.Mockito.when;
 
 import org.junit.jupiter.api.Test;
@@ -8,8 +8,7 @@ import org.mockito.Mockito;
 import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import br.ce.wcaquino.barriga.domain.builders.UsuarioBuilder;
-import br.ce.wcaquino.barriga.service.repositories.UsuarioRepository;
+import cursoJUnit5.Examples.service.repositories.UsuarioRepository;
 
 @ExtendWith(MockitoExtension.class)
 public class CalculadoraMockTest {
