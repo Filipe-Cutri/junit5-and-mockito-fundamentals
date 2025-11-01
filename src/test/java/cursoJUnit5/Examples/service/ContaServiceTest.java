@@ -25,7 +25,6 @@ import cursoJUnit5.Examples.service.repositories.ContaRepository;
 @Tag("service")
 @Tag("conta")
 @ExtendWith(MockitoExtension.class)
-//@MockitoSettings(strictness = Strictness.LENIENT)
 public class ContaServiceTest {
 	@InjectMocks private ContaService service;
 	@Mock private ContaRepository repository;
@@ -63,7 +62,6 @@ public class ContaServiceTest {
 		Conta contaToSave = umaConta().comId(null).agora();
 		when(repository.obterContasPorUsuario(contaToSave.usuario().id()))
 			.thenReturn(Arrays.asList(umaConta().agora()));
-//		when(repository.salvar(contaToSave)).thenReturn(umaConta().agora());
 		
 		String mensagem = Assertions.assertThrows(ValidationException.class, () -> 
 			service.salvar(contaToSave)).getMessage();

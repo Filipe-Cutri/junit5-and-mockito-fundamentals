@@ -1,6 +1,5 @@
 package cursoJUnit5.Examples.domain;
 
-
 import static cursoJUnit5.Examples.domain.builders.UsuarioBuilder.umUsuario;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -55,8 +54,6 @@ public class UsuarioTest {
 	
 	@ParameterizedTest(name = "[{index}] - {4}")
 	@CsvFileSource(files = "src\\test\\resources\\camposObrigatoriosUsuario.csv", nullValues = "NULL", numLinesToSkip = 1)
-//	@ParameterizedTest
-//	@CsvFileSource(files = "src\\test\\resources\\camposObrigatoriosUsuario.csv", nullValues = "NULL", useHeadersInDisplayName = true)
 	public void deveValidarCamposObrigatorios(Long id, String nome, String email, String senha, String mensagem) {
 		ValidationException ex = Assertions.assertThrows(ValidationException.class, () -> 
 		umUsuario().comId(id).comNome(nome).comEmail(email).comSenha(senha).agora());

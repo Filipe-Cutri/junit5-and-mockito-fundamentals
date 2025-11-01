@@ -3,6 +3,7 @@ package cursoJUnit5.Examples.domain.builders;
 import cursoJUnit5.Examples.domain.Usuario;
 
 public class UsuarioBuilder {
+
 	private Long id;
 	private String nome;
 	private String email;

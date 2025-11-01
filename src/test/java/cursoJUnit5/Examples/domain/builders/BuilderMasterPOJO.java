@@ -11,12 +11,6 @@ import java.util.Set;
 
 import cursoJUnit5.Examples.domain.Transacao;
 
-/**
- * Classe responsável pela criação de builders de entidades
- * 
- * @author wcaquino
- *
- */
 public class BuilderMasterPOJO {
 
 	Set<String> listaImports;
@@ -24,16 +18,11 @@ public class BuilderMasterPOJO {
 	public BuilderMasterPOJO() {
 		listaImports = new HashSet<String>();
 		listaImports.add("import java.util.Arrays;");
-//		listaImports.add("import java.util.Collections;");
-//		listaImports.add("import java.util.ArrayList;");
 	}
 
 	@SuppressWarnings("rawtypes")
 	public void gerarCodigoClasse(Class classe) {
-		
-		
 		String nomeClasse = classe.getSimpleName() + "Builder";
-		
 		StringBuilder builder = new StringBuilder();
 		
 		builder.append("public class ").append(nomeClasse).append(" {\n");
@@ -74,13 +63,6 @@ public class BuilderMasterPOJO {
 					.append(nomeClasse)
 					.append(" comLista").append(campo.getName().substring(0, 1).toUpperCase()).append(campo.getName().substring(1))
 					.append("(").append(((Class)stringListType.getActualTypeArguments()[0]).getSimpleName()).append("... params) {\n");
-////				List<elemType> lista = new ArrayList<elemType>();
-//				builder.append("\t\tList<").append(((Class)stringListType.getActualTypeArguments()[0]).getSimpleName()).append("> lista = new ArrayList<")
-//					.append(((Class)stringListType.getActualTypeArguments()[0]).getSimpleName()).append(">();\n");
-//				registrarImports(((Class)stringListType.getActualTypeArguments()[0]).getName());
-////				Collections.addAll(lista, args);
-//				builder.append("\t\tCollections.addAll(lista, params);\n");
-////				elemento.setelemTypes(lista);
 				builder.append("\t\telemento.set").append(campo.getName().substring(0, 1).toUpperCase()).append(campo.getName().substring(1)).append("(Arrays.asList(params));\n");
 				
 				builder.append("\t\treturn this;\n");

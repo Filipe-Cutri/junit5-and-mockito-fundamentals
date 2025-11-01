@@ -37,7 +37,6 @@ import cursoJUnit5.Examples.service.repositories.TransacaoDao;
 
 @Tag("service")
 @Tag("transacao")
-//@EnabledIf(value = "isHoraValida")
 @ExtendWith(MockitoExtension.class)
 @MockitoSettings(strictness = Strictness.LENIENT)
 public class TransacaoServiceTest {
@@ -48,7 +47,6 @@ public class TransacaoServiceTest {
 	
 	@BeforeEach
 	public void setup() {
-//		when(clock.getCurrentTime()).thenReturn(LocalDateTime.of(2023,1,1,4,30,15));		
 		when(service.getTime()).thenReturn(LocalDateTime.of(2023,1,1,4,30,15));
 	}
 
@@ -110,7 +108,6 @@ public class TransacaoServiceTest {
 	
 	@Test
 	public void deveRejeitarTransacaoTardeDaNoite() {
-//		Mockito.reset(service);
 		when(service.getTime()).thenReturn(LocalDateTime.of(2023,1,1,23,30,15));
 		String exMessage = Assertions.assertThrows(RuntimeException.class, () -> {
 			service.salvar(umaTransacao().agora());
@@ -127,8 +124,4 @@ public class TransacaoServiceTest {
 		Transacao transacaoValidada = captor.getValue();
 		Assertions.assertFalse(transacaoValidada.getStatus());
 	}
-	
-//	public static boolean isHoraValida() {
-//		return LocalDateTime.now().getHour() > 17;
-//	}
 }

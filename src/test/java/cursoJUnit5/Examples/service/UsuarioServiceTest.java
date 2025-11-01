@@ -27,15 +27,8 @@ public class UsuarioServiceTest {
 	@Mock private UsuarioRepository repository;
 	@InjectMocks private UsuarioService service;
 	
-//	@AfterEach
-//	public void tearDown() {
-//		Mockito.verifyNoMoreInteractions(repository);
-//	}
-	
 	@Test
 	public void deveRetornarEmptyQuandoUsuarioInexistente() {
-//		Mockito.when(repository.getUserByEmail("mail@mail.com")).thenReturn(Optional.empty());
-		
 		Optional<Usuario> user = service.getUserByEmail("mail@mail.com");
 		Assertions.assertTrue(user.isEmpty());
 	}
@@ -57,16 +50,13 @@ public class UsuarioServiceTest {
 	@Test
 	public void deveSalvarUsuarioComSucesso() {
 		Usuario userToSave = umUsuario().comId(null).agora();
-		
-//		when(repository.getUserByEmail(userToSave.email()))
-//			.thenReturn(Optional.empty());
+
 		when(repository.salvar(userToSave)).thenReturn(umUsuario().agora());
 		
 		Usuario savedUser = service.salvar(userToSave);
 		Assertions.assertNotNull(savedUser.id());
 		
 		verify(repository).getUserByEmail(userToSave.email());
-//		verify(repository).salvar(userToSave);
 	}
 	
 	@Test

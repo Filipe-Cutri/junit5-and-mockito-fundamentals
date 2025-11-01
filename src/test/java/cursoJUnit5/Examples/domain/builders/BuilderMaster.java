@@ -14,12 +14,6 @@ import java.util.stream.Collectors;
 
 import cursoJUnit5.Examples.domain.Conta;
 
-/**
- * Classe responsável pela criação de builders de entidades
- * 
- * @author wcaquino@gmail.com
- *
- */
 public class BuilderMaster {
 
 	Set<String> listaImports = new HashSet<String>();

@@ -63,7 +63,6 @@ public class CalculadoraTest {
 		Assertions.assertNotEquals(s1, s3);
 		Assertions.assertNull(s3);
 		Assertions.assertNotNull(s1);
-//		Assertions.fail("Falhou pelo motivo A");
 	}
 	
 	@Test

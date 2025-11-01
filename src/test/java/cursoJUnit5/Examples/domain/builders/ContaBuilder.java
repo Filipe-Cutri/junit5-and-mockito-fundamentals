@@ -4,6 +4,7 @@ import cursoJUnit5.Examples.domain.Usuario;
 import cursoJUnit5.Examples.domain.Conta;
 
 public class ContaBuilder {
+
 	private Long id;
 	private String nome;
 	private Usuario usuario;

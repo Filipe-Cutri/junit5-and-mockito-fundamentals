@@ -10,6 +10,7 @@ import cursoJUnit5.Examples.domain.Transacao;
 
 
 public class TransacaoBuilder {
+
 	private Transacao elemento;
 	private TransacaoBuilder(){}
 
@@ -22,7 +23,6 @@ public class TransacaoBuilder {
 	public static void inicializarDadosPadroes(TransacaoBuilder builder) {
 		builder.elemento = new Transacao();
 		Transacao elemento = builder.elemento;
-
 		
 		elemento.setId(1L);
 		elemento.setDescricao("Transação Válida");
