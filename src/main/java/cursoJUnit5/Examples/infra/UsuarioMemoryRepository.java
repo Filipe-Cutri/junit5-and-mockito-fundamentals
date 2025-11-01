@@ -8,6 +8,7 @@ import cursoJUnit5.Examples.domain.Usuario;
 import cursoJUnit5.Examples.service.repositories.UsuarioRepository;
 
 public class UsuarioMemoryRepository implements UsuarioRepository {
+
 	private List<Usuario> users;
 	private Long currentId;
 	

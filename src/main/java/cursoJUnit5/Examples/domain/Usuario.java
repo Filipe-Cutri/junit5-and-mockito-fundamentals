@@ -5,6 +5,7 @@ import java.util.Objects;
 import cursoJUnit5.Examples.domain.exceptions.ValidationException;
 
 public class Usuario {
+
 	private Long id;
 	private String nome;
 	private String email;

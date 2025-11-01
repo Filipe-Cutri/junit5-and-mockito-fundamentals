@@ -7,6 +7,7 @@ import cursoJUnit5.Examples.domain.exceptions.ValidationException;
 import cursoJUnit5.Examples.service.repositories.TransacaoDao;
 
 public class TransacaoService {
+
 	private TransacaoDao dao;
 
 	public Transacao salvar(Transacao transacao) {

@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.util.Objects;
 
 public class Transacao {
+
 	private Long id;
 	private String descricao;
 	private Double valor;
@@ -52,6 +53,7 @@ public class Transacao {
 	public int hashCode() {
 		return Objects.hash(conta, data, descricao, status, valor);
 	}
+
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

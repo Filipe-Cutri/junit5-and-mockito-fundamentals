@@ -5,6 +5,7 @@ import java.util.Objects;
 import cursoJUnit5.Examples.domain.exceptions.ValidationException;
 
 public class Conta {
+
 	private Long id;
 	private String nome;
 	private Usuario usuario;
