@@ -13,8 +13,7 @@
 
 ### 📚 Sobre
 
-Este repositório contém **exemplos práticos de testes unitários em Java** utilizando **JUnit 5** e **Mockito**.  
-O foco está em **boas práticas**, **organização de testes** e **testes de camada de serviço**, comuns em aplicações backend.
+Este repositório contém **exemplos práticos de testes unitários em Java** utilizando **JUnit 5** e **Mockito**. O foco está em **boas práticas**, **organização de testes** e **testes de camada de serviço**, comuns em aplicações backend.
 
 ### 🎯 Tópicos
 
@@ -40,8 +39,7 @@ O foco está em **boas práticas**, **organização de testes** e **testes de ca
 
 ### 📚 About
 
-This repository contains **practical examples of unit testing in Java** using **JUnit 5** and **Mockito**.  
-The focus is on **best practices**, **clean test design**, and **service-layer testing** commonly used in backend applications.
+This repository contains **practical examples of unit testing in Java** using **JUnit 5** and **Mockito**. The focus is on **best practices**, **clean test design**, and **service-layer testing** commonly used in backend applications.
 
 ### 🎯 Topics
 
